@@ -1,0 +1,46 @@
+print(
+    "Welcome to CoderIfeanyi's word scramble\nPlease Unscramble the names of the propgramming languages:"
+)
+
+pythonq = input("HTNPOY: ")
+pythonans = 'python'
+if pythonans != pythonq:
+    print("Incorrect, Your Score is 10")
+    exit()
+else:
+    print("Correct")
+    javaq = input("AVJA: ")
+javaans = 'java'
+if javaans != javaq:
+    print("Incorrect, Your Score is 20")
+    exit()
+else:
+    print("Correct")
+    javasq = input("TACRVSPJAI: ")
+javaans2 = 'javascript'
+if javaans2 != javasq:
+    print("Incorrect, Your Score is 30")
+    exit()
+else:
+    print("Correct")
+kotlinq = input("OLTIKN: ")
+kotlinans = 'kotlin'
+if kotlinans != kotlinq:
+    print("Incorrect, Your Score is 40")
+    exit()
+else:
+    print("Correct")
+hppq = input("PPH: ")
+hppans = 'hpp'
+if hppans != hppq:
+    print("Incorrect, Your Score is 50")
+    exit()
+else:
+    print("Correct")
+goq = input("OG: ")
+goans = 'go'
+if goq != goans:
+    print("Incorrect, Your Score is 60")
+    exit()
+else:
+    print("Correct")
